@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module":"AMD",
+	  "outDir": "dist",
+    "experimentalDecorators": false,
+    "sourceMap": true,
+    "declaration": false,
+    "noImplicitAny":true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2015.promise"
+    ],
+    "types": [],
+    "noImplicitReturns":true,
+    "noFallthroughCasesInSwitch":true,
+  },
+  "include": [
+    "**/*.ts",
+    "require.js"
+  ]
+}
